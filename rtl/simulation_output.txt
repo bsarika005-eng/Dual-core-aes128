@@ -1,0 +1,14 @@
+DUAL-CORE AES-128 SIMULATION
+
+KEY:
+000102030405060708090a0b0c0d0e0f
+
+CORE 0
+Plaintext : 00112233445566778899aabbccddeeff
+Ciphertext: 69c4e0d86a7b0430d8cdb78070b4c55a
+Result    : PASS
+
+CORE 1
+Plaintext : 112233445566778899aabbccddeeff00
+Ciphertext: 0dbedd87a7840ae695de334e94d35e50
+Result    : PASS
